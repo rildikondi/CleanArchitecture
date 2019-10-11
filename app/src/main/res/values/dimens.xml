@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- Card view. -->
+    <dimen name="card_corner_radius">0dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+
+    <dimen name="merchant_details_title">25dp</dimen>
+    <dimen name="merchant_details_text">20dp</dimen>
+
+    <!-- Progress view. -->
+
+</resources>

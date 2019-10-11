@@ -1,0 +1,11 @@
+<resources>
+    <string name="merchants_screen_title">Merchants</string>
+    <string name="merchant_details_screen_title">Merchant Details</string>
+    <string name="merchant_details_about">About</string>
+    <string name="merchant_details_rating">Rating</string>
+    <string name="merchant_details_address">Address</string>
+    <string name="merchant_details_phone">Phone number</string>
+
+    <!-- Animations -->
+    <string name="merchant_transition_poster">merchantPosterTransition</string>
+</resources>
