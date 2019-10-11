@@ -2,6 +2,7 @@
 
 # Android - Clean Architecture - Kotlin [![Build Status](https://travis-ci.org/android10/Android-CleanArchitecture-Kotlin.svg?branch=master)](https://travis-ci.org/android10/Android-CleanArchitecture-Kotlin)
 Clean Architecture based in Features Modules. Written in  Kotlin also with an interesting aproache like Functional Programming Language.
+MVVM for the Presentation Layer, Coroutines stable Version, Unit Tests, Repository Pattern, TDD
 
 
 ## References:
