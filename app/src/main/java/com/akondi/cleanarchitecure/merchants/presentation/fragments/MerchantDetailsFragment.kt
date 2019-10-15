@@ -109,7 +109,7 @@ class MerchantDetailsFragment : BaseFragment() {
                     restartIdleTimer()
                 }
                 merchantAbout.text = if (bookable) "bookable online" else " not bookable online"
-                merchantRating.text = String.format("%s,/6", reviewScore)
+                merchantRating.text = String.format("%s/6", reviewScore)
                 merchantAddress.text = String.format(
                     "%s, %s, %s, %s",
                     location.address.street,
