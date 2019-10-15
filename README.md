@@ -4,6 +4,8 @@
 Clean Architecture based in Features Modules. Written in  Kotlin also with an interesting aproach like Functional Programming Language.
 MVVM for the Presentation Layer, Coroutines stable Version, Unit Tests, Repository Pattern, TDD
 
+## Preview
+![](https://github.com/rildikondi/CleanArchitecture/blob/master/gif/preview.gif)
 
 ## References:
 
@@ -13,7 +15,7 @@ MVVM for the Presentation Layer, Coroutines stable Version, Unit Tests, Reposito
 
 ### ----------------------------------------------------------------------------------------------
 
-## Clean Architecture
+## Clean Architecture Fernado Cejas
 ![https://fernandocejas.com/2018/05/07/architecting-android-reloaded/](https://github.com/android10/Sample-Data/blob/master/Android-CleanArchitecture-Kotlin/architecture/clean_architecture_reloaded_main.png)
 
 ### ----------------------------------------------------------------------------------------------
