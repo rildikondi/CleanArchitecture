@@ -5,7 +5,7 @@ Clean Architecture based in Features Modules. Written in  Kotlin also with an in
 MVVM for the Presentation Layer, Coroutines stable Version, Unit Tests, Repository Pattern, TDD
 
 ## Preview
-![](https://github.com/rildikondi/CleanArchitecture/blob/master/gif/preview.gif)
+![](https://github.com/rildikondi/CleanArchitecture/blob/master/gif/preview.gif){:height="300px" width="200px"}
 
 ## References:
 
