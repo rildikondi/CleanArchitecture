@@ -2,8 +2,8 @@ package com.akondi.cleanarchitecure.core.di.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.akondi.cleanarchitecure.merchants.presentation.viewmodels.MerchantsViewModel
-import com.akondi.cleanarchitecure.merchants.presentation.viewmodels.MerchantDetailsViewModel
+import com.akondi.cleanarchitecure.characters.presentation.viewmodels.CharactersViewModel
+import com.akondi.cleanarchitecure.characters.presentation.viewmodels.CharacterDetailsViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
@@ -15,11 +15,11 @@ abstract class ViewModelModule {
 
     @Binds
     @IntoMap
-    @ViewModelKey(MerchantsViewModel::class)
-    abstract fun bindsMoviesViewModel(merchantsViewModel: MerchantsViewModel): ViewModel
+    @ViewModelKey(CharactersViewModel::class)
+    abstract fun bindsMoviesViewModel(merchantsViewModel: CharactersViewModel): ViewModel
 
     @Binds
     @IntoMap
-    @ViewModelKey(MerchantDetailsViewModel::class)
-    abstract fun bindsMovieDetailsViewModel(merchantDetailsViewModel: MerchantDetailsViewModel): ViewModel
+    @ViewModelKey(CharacterDetailsViewModel::class)
+    abstract fun bindsMovieDetailsViewModel(merchantDetailsViewModel: CharacterDetailsViewModel): ViewModel
 }

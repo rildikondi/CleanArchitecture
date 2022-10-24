@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        style="@style/MerchantSlider"
+        style="@style/CharacterSlider"
         android:layout_centerHorizontal="true"
         android:fitsSystemWindows="true"
         android:scaleType="centerCrop"

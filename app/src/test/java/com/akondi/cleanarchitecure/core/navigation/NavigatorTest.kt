@@ -3,7 +3,7 @@ package com.akondi.cleanarchitecure.core.navigation
 import com.akondi.cleanarchitecure.AndroidTest
 import com.akondi.cleanarchitecure.login.Authenticator
 import com.akondi.cleanarchitecure.login.LoginActivity
-import com.akondi.cleanarchitecure.merchants.presentation.activities.MerchantsActivity
+import com.akondi.cleanarchitecure.characters.presentation.activities.MerchantsActivity
 import com.akondi.cleanarchitecure.shouldNavigateTo
 import com.nhaarman.mockitokotlin2.whenever
 import org.junit.Before

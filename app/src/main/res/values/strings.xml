@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">CleanArchitecture</string>
+    <string name="app_name">Marvel Comics</string>
 
     <string name="action_refresh">Refresh</string>
 
     <string name="failure_network_connection">No Network Connection.</string>
     <string name="failure_server_error">Server Error</string>
-    <string name="failure_merchants_unavailable">Merchants Unavailable.</string>
-    <string name="failure_merchant_non_existent">Merchant Not Existent.</string>
+    <string name="failure_characters_unavailable">Characters Unavailable.</string>
+    <string name="failure_character_non_existent">Character Not Existent.</string>
 </resources>

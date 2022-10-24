@@ -20,6 +20,12 @@ android {
         testInstrumentationRunner config["test_runner"]
         testOptions.unitTests.includeAndroidResources = true
 
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+
+        buildConfigField "String", "API_KEY", "\"${properties.getProperty("API_KEY")}\""
+        buildConfigField "String", "PRIVATE_KEY", "\"${properties.getProperty("PRIVATE_KEY")}\""
+        buildConfigField "String", "HASH_VALUE", "\"${properties.getProperty("HASH_VALUE")}\""
     }
 
 

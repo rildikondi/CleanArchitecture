@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <dist:module dist:instant="true" />
+<!--    <dist:module dist:instant="true" />-->
 
     <application
         android:name="com.akondi.cleanarchitecure.application.AndroidApplication"
@@ -35,12 +35,12 @@
             android:label="@string/login_screen_title" />
 
         <activity
-            android:name="com.akondi.cleanarchitecure.merchants.presentation.activities.MerchantsActivity"
-            android:label="@string/merchants_screen_title" />
+            android:name="com.akondi.cleanarchitecure.characters.presentation.activities.CharactersActivity"
+            android:label="@string/characters_screen_title" />
 
         <activity
-            android:name="com.akondi.cleanarchitecure.merchants.presentation.activities.MerchantDetailsActivity"
-            android:label="@string/merchant_details_screen_title"
+            android:name="com.akondi.cleanarchitecure.characters.presentation.activities.CharacterDetailsActivity"
+            android:label="@string/character_details_screen_title"
             android:theme="@style/AppTheme.Translucent" />
 
     </application>
